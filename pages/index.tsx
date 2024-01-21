@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Nav from "@/Components/Nav";
 import MobileNav from "@/Components/MobileNav";
 import Hero from "@/Components/Hero";
+import About from "@/Components/About";
 
 function HomePage() {
   const [nav, setNav] = useState(false);
@@ -15,7 +16,11 @@ function HomePage() {
         <Nav openNav={openNav} />
         {/* Hero section */}
         <Hero />
-        <div>{/* About */}</div>
+        <div className="relative z-[30]">
+          {/* About */}
+          <About />
+          {/* Service */}
+        </div>
       </div>
     </div>
   );
