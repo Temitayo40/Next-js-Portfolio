@@ -3,6 +3,7 @@ import Nav from "@/Components/Nav";
 import MobileNav from "@/Components/MobileNav";
 import Hero from "@/Components/Hero";
 import About from "@/Components/About";
+import Services from "@/Components/Services";
 
 function HomePage() {
   const [nav, setNav] = useState(false);
@@ -20,6 +21,7 @@ function HomePage() {
           {/* About */}
           <About />
           {/* Service */}
+          <Services />
         </div>
       </div>
     </div>
