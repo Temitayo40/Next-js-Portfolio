@@ -33,7 +33,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] ">
+        <div
+          data-aos="zoom-in"
+          className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] "
+        >
           <Image
             src="/images/u1.jpg"
             alt="user"

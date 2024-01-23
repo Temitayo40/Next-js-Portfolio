@@ -28,7 +28,7 @@ const TestimonialSlider = () => {
       additionalTransfrom={0}
       arrows={true}
       autoPlay={true}
-      autoPlaySpeed={5000}
+      autoPlaySpeed={4000}
       centerMode={false}
       infinite
       responsive={responsive}
